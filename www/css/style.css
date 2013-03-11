@@ -1,0 +1,122 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    position: relative;
+    width: 960px;
+    background-color:#ecf1ef;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#login {
+    width: 30%;
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+
+#topbar {
+    width: 100%;
+    height: 50px;
+}
+
+#charts {
+    margin-top:10px;
+    width: 100%;
+    height: 100%;
+}
+
+#level {
+    margin-top: 10%;
+    width: 100%;
+    height: 100px;
+}
+
+#level > div {
+    float: right;
+    height: 50px;
+    width: 20%;
+    text-align: center;
+    font-weight:bold;
+    color:white;
+    text-shadow: 0 1px 1px #000;
+}
+
+#level > div:hover {
+    opacity: 0.5;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.btn {
+  padding: 4px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #006dcc;
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.btn:active {
+    color: rgba(255, 255, 255, 0.75);
+ }
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+#avatar {
+    display:block;
+    height:64px;
+    width:64px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.red {
+    background-color: #ff2800;
+}
+
+.orange {
+    background-color: #ffaa00;
+}
+
+.yellow {
+    background-color: #ffec00;
+}
+
+.blue {
+    background-color: #4282d3;
+}
+
+.green {
+    background-color: #00c90d; 
+}

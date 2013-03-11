@@ -1,0 +1,28 @@
+{
+    "users":{
+        "alex":{
+            "password":"qwerty",
+            "image":"img/avatars/Grim Reaper.png"
+        },
+        "gilad":{
+            "password":"qwerty",
+            "image":"img/avatars/Mask 3.png"
+        },
+        "ori":{
+            "password":"qwerty",
+            "image":"img/avatars/Mask 4.png"
+        },
+        "or":{
+            "password":"qwerty",
+            "image":"img/avatars/Zombie 3.png"
+        },
+        "ofer":{
+            "password":"qwerty",
+            "image":"img/avatars/Doll 2.png"
+        },
+        "liza":{
+            "password":"qwerty",
+            "image":"img/avatars/Zombie Female.png"
+        }
+    }
+}

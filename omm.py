@@ -66,7 +66,6 @@ def user_image(user):
 @get('/')
 def index():
     user = {"name": get_cookie(), "img": user_image(get_cookie())}
-
     return template('www/html/index', user=user)
 
 
@@ -127,4 +126,4 @@ def router(sock):
 
 # Main
 
-run(host='127.0.0.1', port=8080, server=GeventWebSocketServer)
+run(host='0.0.0.0', port=8080, server=GeventWebSocketServer)

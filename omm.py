@@ -127,5 +127,4 @@ def router(sock):
 
 # Main
 
-run(host='127.0.0.1', port=8080, server=GeventWebSocketServer, debug=True,
-    reloader=True)
+run(host='127.0.0.1', port=8080, server=GeventWebSocketServer)

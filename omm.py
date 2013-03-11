@@ -49,10 +49,6 @@ def broadcast(data):
         conn.send(data)
 
 
-def update_chart(data):
-    print "Event data:{}".format(data)
-
-
 def user_login(user, password):
     return str(users_data.get(user, dict()).get("password")) == password
 
